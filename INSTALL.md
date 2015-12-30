@@ -47,3 +47,11 @@ This allows the install script to find `libGL.so` in the main library location.
 Now the install succeeds and pip reports:
 
     Successfully installed kivy Kivy-Garden
+
+## Unforeseen Dependencies
+
+So it seems `pygame` is required to draw windows on screen, but is not available
+in pip right now. So please check that this package is installed first. If it is
+not and you are running Ubuntu, this is solved with:
+
+    sudo apt-get install python-pygame
