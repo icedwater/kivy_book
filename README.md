@@ -7,7 +7,8 @@ forward since that time.
 
 As of this commit, the [latest version][new] is *Kivy 1.9.0*. Download the right
 install package for your operating system on the download page linked above. You
-might prefer to clone the [github repo][kgr] directly.
+might prefer to clone the [github repo][kgr] directly. Or use pip, following the
+instructions in `INSTALL.md`.
 
 I'll be working through the chapters in order, so this walkthrough will be at my
 pace. If you have your hands on [the book][get], feel free to work however you'd
