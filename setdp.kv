@@ -1,0 +1,20 @@
+AddLocationForm:
+
+<AddLocationForm@BoxLayout>:
+    orientation: "vertical"
+    BoxLayout:
+        height: "40dp"
+        size_hint_y: None
+        BoxLayout:
+            TextInput:
+                size_hint_x: 4
+            Button:
+                text: "Add"
+                size_hint_x: 1
+            Button:
+                text: "Remove"
+                size_hint_x: 1
+    ListView:
+        height: "450dp"
+        size_hint_y: None
+        item_strings: ["Singapore, SG", "Kuala Lumpur, MY", "Batam, IN"]
